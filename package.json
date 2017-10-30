@@ -1,0 +1,28 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Google URL shortener command-line utility",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustedtomato/url-shortener.git"
+  },
+  "bin": {
+    "url-shortener": "index.js"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "shorten"
+  ],
+  "author": "Halasi Tamás",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trustedtomato/url-shortener/issues"
+  },
+  "homepage": "https://github.com/trustedtomato/url-shortener#readme",
+  "dependencies": {
+    "commandy": "^3.0.0",
+    "mini-request": "^1.1.1"
+  }
+}
