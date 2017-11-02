@@ -1,5 +1,5 @@
 {
-  "name": "url-shortener",
+  "name": "google-url-shortener",
   "version": "1.0.1",
   "description": "Google URL shortener command-line utility",
   "main": "index.js",
