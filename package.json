@@ -10,6 +10,9 @@
   "bin": {
     "url-shortener": "index.js"
   },
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish"
+  },
   "keywords": [
     "url",
     "shortener",
